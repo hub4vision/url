@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="98227" started-at="2020-02-17T12:14:21Z" finished-at="2020-02-17T12:15:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="98227" started-at="2020-02-17T12:14:21Z" finished-at="2020-02-17T12:15:59Z">
+      <class name="com.hub4vision.urls.VerifyLiveURLs">
+        <test-method status="PASS" signature="HomeSetup()[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="HomeSetup" is-config="true" duration-ms="153" started-at="2020-02-17T17:44:20Z" finished-at="2020-02-17T17:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeSetup -->
+        <test-method status="PASS" signature="LiveURLCheck(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="LiveURLCheck" duration-ms="2913" started-at="2020-02-17T17:44:21Z" data-provider="urldata" finished-at="2020-02-17T17:44:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.java.com/en/download]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//input[@name='Ntt']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LiveURLCheck -->
+        <test-method status="PASS" signature="LiveURLCheck(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="LiveURLCheck" duration-ms="7676" started-at="2020-02-17T17:44:24Z" data-provider="urldata" finished-at="2020-02-17T17:44:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://poi.apache.org]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//a[contains(text(),'Apache POI')]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LiveURLCheck -->
+        <test-method status="PASS" signature="LiveURLCheck(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="LiveURLCheck" duration-ms="6390" started-at="2020-02-17T17:44:32Z" data-provider="urldata" finished-at="2020-02-17T17:44:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://selenium.dev]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//input[@id='gsc-i-id1']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LiveURLCheck -->
+        <test-method status="PASS" signature="LiveURLCheck(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="LiveURLCheck" duration-ms="6336" started-at="2020-02-17T17:44:38Z" data-provider="urldata" finished-at="2020-02-17T17:44:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://mvnrepository.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//input[@id='query']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LiveURLCheck -->
+        <test-method status="PASS" signature="LiveURLCheck(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="LiveURLCheck" duration-ms="6475" started-at="2020-02-17T17:44:44Z" data-provider="urldata" finished-at="2020-02-17T17:44:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//input[@id='txtUsername']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LiveURLCheck -->
+        <test-method status="PASS" signature="LiveURLCheck(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="LiveURLCheck" duration-ms="38045" started-at="2020-02-17T17:44:51Z" data-provider="urldata" finished-at="2020-02-17T17:45:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://github.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//input[@id='dashboard-repos-filter-left']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LiveURLCheck -->
+        <test-method status="PASS" signature="LiveURLCheck(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="LiveURLCheck" duration-ms="29824" started-at="2020-02-17T17:45:29Z" data-provider="urldata" finished-at="2020-02-17T17:45:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://testproject.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//a[contains(text(),'Login')]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LiveURLCheck -->
+        <test-method status="PASS" signature="Email()[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="Email" is-config="true" duration-ms="21887" started-at="2020-02-17T17:46:04Z" finished-at="2020-02-17T17:46:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email -->
+      </class> <!-- com.hub4vision.urls.VerifyLiveURLs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
