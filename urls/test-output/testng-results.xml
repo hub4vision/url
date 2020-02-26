@@ -1,133 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="98227" started-at="2020-02-17T12:14:21Z" finished-at="2020-02-17T12:15:59Z">
+  <suite name="Default suite" duration-ms="46265" started-at="2020-02-26T18:31:07Z" finished-at="2020-02-26T18:31:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="98227" started-at="2020-02-17T12:14:21Z" finished-at="2020-02-17T12:15:59Z">
-      <class name="com.hub4vision.urls.VerifyLiveURLs">
-        <test-method status="PASS" signature="HomeSetup()[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="HomeSetup" is-config="true" duration-ms="153" started-at="2020-02-17T17:44:20Z" finished-at="2020-02-17T17:44:21Z">
+    <test name="Default test" duration-ms="46265" started-at="2020-02-26T18:31:07Z" finished-at="2020-02-26T18:31:53Z">
+      <class name="com.hub4vision.urls.Login">
+        <test-method status="PASS" signature="HomeSetup()[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="HomeSetup" is-config="true" duration-ms="2857" started-at="2020-02-27T00:01:04Z" finished-at="2020-02-27T00:01:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomeSetup -->
-        <test-method status="PASS" signature="LiveURLCheck(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="LiveURLCheck" duration-ms="2913" started-at="2020-02-17T17:44:21Z" data-provider="urldata" finished-at="2020-02-17T17:44:24Z">
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="636" started-at="2020-02-27T00:01:07Z" data-provider="loginData" finished-at="2020-02-27T00:01:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://www.java.com/en/download]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[//input[@name='Ntt']]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LiveURLCheck -->
-        <test-method status="PASS" signature="LiveURLCheck(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="LiveURLCheck" duration-ms="7676" started-at="2020-02-17T17:44:24Z" data-provider="urldata" finished-at="2020-02-17T17:44:32Z">
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="521" started-at="2020-02-27T00:01:08Z" data-provider="loginData" finished-at="2020-02-27T00:01:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://poi.apache.org]]>
+                <![CDATA[test]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[//a[contains(text(),'Apache POI')]]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LiveURLCheck -->
-        <test-method status="PASS" signature="LiveURLCheck(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="LiveURLCheck" duration-ms="6390" started-at="2020-02-17T17:44:32Z" data-provider="urldata" finished-at="2020-02-17T17:44:38Z">
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="1205" started-at="2020-02-27T00:01:08Z" data-provider="loginData" finished-at="2020-02-27T00:01:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://selenium.dev]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[//input[@id='gsc-i-id1']]]>
+                <![CDATA[test]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LiveURLCheck -->
-        <test-method status="PASS" signature="LiveURLCheck(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="LiveURLCheck" duration-ms="6336" started-at="2020-02-17T17:44:38Z" data-provider="urldata" finished-at="2020-02-17T17:44:44Z">
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="1256" started-at="2020-02-27T00:01:09Z" data-provider="loginData" finished-at="2020-02-27T00:01:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://mvnrepository.com]]>
+                <![CDATA[wrongusername]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[//input[@id='query']]]>
+                <![CDATA[admin123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LiveURLCheck -->
-        <test-method status="PASS" signature="LiveURLCheck(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="LiveURLCheck" duration-ms="6475" started-at="2020-02-17T17:44:44Z" data-provider="urldata" finished-at="2020-02-17T17:44:51Z">
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="1600" started-at="2020-02-27T00:01:11Z" data-provider="loginData" finished-at="2020-02-27T00:01:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://opensource-demo.orangehrmlive.com]]>
+                <![CDATA[Admin]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[//input[@id='txtUsername']]]>
+                <![CDATA[wrongpassword]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LiveURLCheck -->
-        <test-method status="PASS" signature="LiveURLCheck(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="LiveURLCheck" duration-ms="38045" started-at="2020-02-17T17:44:51Z" data-provider="urldata" finished-at="2020-02-17T17:45:29Z">
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="1273" started-at="2020-02-27T00:01:12Z" data-provider="loginData" finished-at="2020-02-27T00:01:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://github.com]]>
+                <![CDATA[bothwrong]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[//input[@id='dashboard-repos-filter-left']]]>
+                <![CDATA[bothwrong]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LiveURLCheck -->
-        <test-method status="PASS" signature="LiveURLCheck(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="LiveURLCheck" duration-ms="29824" started-at="2020-02-17T17:45:29Z" data-provider="urldata" finished-at="2020-02-17T17:45:59Z">
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="13465" started-at="2020-02-27T00:01:14Z" data-provider="loginData" finished-at="2020-02-27T00:01:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://testproject.io]]>
+                <![CDATA[Admin]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[//a[contains(text(),'Login')]]]>
+                <![CDATA[admin123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LiveURLCheck -->
-        <test-method status="PASS" signature="Email()[pri:0, instance:com.hub4vision.urls.VerifyLiveURLs@2794eab6]" name="Email" is-config="true" duration-ms="21887" started-at="2020-02-17T17:46:04Z" finished-at="2020-02-17T17:46:25Z">
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="12835" started-at="2020-02-27T00:01:27Z" data-provider="loginData" finished-at="2020-02-27T00:01:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="13016" started-at="2020-02-27T00:01:40Z" data-provider="loginData" finished-at="2020-02-27T00:01:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="Email()[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="Email" is-config="true" duration-ms="8358" started-at="2020-02-27T00:01:53Z" finished-at="2020-02-27T00:02:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Email -->
-      </class> <!-- com.hub4vision.urls.VerifyLiveURLs -->
+      </class> <!-- com.hub4vision.urls.Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

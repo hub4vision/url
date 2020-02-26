@@ -11,6 +11,6 @@ public class inputEmailConfiguration extends Library{
 	
 	//Please enter email address as required to send and give attachment file names.
 	public static String[] to ={"testumeshkumarsingh@gmail.com","umeshkumarsingh@gmail.com"};
-	public static String[] attachmentPath ={"F:/IDE3/workspace/urls/Today_Live_Website_URLs_Extent_Reports.html","F:/IDE3/workspace/urls/TestData.xlsx"};
+	public static String[] attachmentPath ={"F:/IDE3/workspace/url/urls/Today_Live_Website_URLs_Extent_Reports.html","F:/IDE3/workspace/url/urls/TestData.xlsx"};
 	
 }

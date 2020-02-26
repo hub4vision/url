@@ -48,6 +48,7 @@ public class Library {
 					driver = new ChromeDriver(options);
 					//driver.get(null);
 					driver.manage().window().maximize();
+					
 				}
 				else{
 					System.out.println("The browser name"+config.getProperty("browser")+ " is not exist as per expected.");
@@ -71,18 +72,17 @@ public class Library {
 		config.load(fis);
 	}
 	
-	public static boolean isElementPresent(String websiteXpath){
+	public static boolean isElementPresent(String elementXpath){
 		try{
 			//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			element = driver.findElement(By.xpath(websiteXpath));
+			element = driver.findElement(By.xpath(elementXpath));
 			
-			System.out.println("---------------element value---------------");
-			System.out.println(element);
-			System.out.println("------------------------------");
+			System.out.println("element name is " + element + " and found.");
 			return true;
 		}
 		catch(Exception t){
 			t.printStackTrace();
+			System.out.println(elementXpath + " element is not found.");
 			return false;
 		}
 		
