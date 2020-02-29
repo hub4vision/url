@@ -1,6 +1,7 @@
 package com.hub4vision.urls;
 
 import java.util.Iterator;
+import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -9,12 +10,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
+
 public class TestTabsandPopups {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-WebDriver driver = new FirefoxDriver();
+
+		WebDriver driver = new FirefoxDriver();
 		
 		
 		driver.navigate().to("http://www.hdfcbank.com/");
@@ -69,27 +74,7 @@ WebDriver driver = new FirefoxDriver();
 		*/
 		
 		driver.quit();
-		
-		
-		Set<String> winidss = driver.getWindowHandles();
-		Iterator<String> iterators = winidss.iterator();
-		
-		String firstwindow = iterators.next();
-		driver.switchTo().window(firstwindow);
-		
-		
-		winidss = driver.getWindowHandles();
-		iterators = winidss.iterator();
-		
-		iterators.next();
-		String second_Wind = iterators.next();
-		driver.switchTo().window(second_Wind);
-		
-		
-		
-		
-		
-		
+
 	}
 
 }
