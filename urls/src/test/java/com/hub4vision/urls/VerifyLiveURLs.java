@@ -85,9 +85,31 @@ public class VerifyLiveURLs extends Library{
 	public static String capture(WebDriver driver) throws IOException{
 		File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		File Dest = new File(projectPath+"/"+config.get("screenshotFolderName")+"/"+ System.currentTimeMillis()+".png");
+		
+		
 		String errflpath = Dest.getAbsolutePath();
 		FileUtils.copyFile(srcFile, Dest);
+		
+		
+		//Convert web driver object to TakeScreenshot
+		TakesScreenshot scrShot =((TakesScreenshot)driver);
+
+        //Call getScreenshotAs method to create image file
+        File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+
+            //Move image file to new destination
+
+              //  File DestFile=new File(fileWithPath);
+
+                //Copy file at destination
+
+                //FileUtils.copyFile(SrcFile, DestFile);
+                
+                
+                
 		return errflpath;
+		
+		
 	}
 	
 	@AfterSuite

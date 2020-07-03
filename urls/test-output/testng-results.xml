@@ -1,165 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46265" started-at="2020-02-26T18:31:07Z" finished-at="2020-02-26T18:31:53Z">
+  <suite name="Default suite" duration-ms="15059" started-at="2020-03-01T02:40:43Z" finished-at="2020-03-01T02:40:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46265" started-at="2020-02-26T18:31:07Z" finished-at="2020-02-26T18:31:53Z">
-      <class name="com.hub4vision.urls.Login">
-        <test-method status="PASS" signature="HomeSetup()[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="HomeSetup" is-config="true" duration-ms="2857" started-at="2020-02-27T00:01:04Z" finished-at="2020-02-27T00:01:07Z">
+    <test name="Default test" duration-ms="15059" started-at="2020-03-01T02:40:43Z" finished-at="2020-03-01T02:40:58Z">
+      <class name="com.hub4vision.urls.BStackTakeScreenshot">
+        <test-method status="PASS" signature="testBStackTakeScreenShot()[pri:0, instance:com.hub4vision.urls.BStackTakeScreenshot@29ee9faa]" name="testBStackTakeScreenShot" duration-ms="15044" started-at="2020-03-01T08:10:43Z" finished-at="2020-03-01T08:10:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomeSetup -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="636" started-at="2020-02-27T00:01:07Z" data-provider="loginData" finished-at="2020-02-27T00:01:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="521" started-at="2020-02-27T00:01:08Z" data-provider="loginData" finished-at="2020-02-27T00:01:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="1205" started-at="2020-02-27T00:01:08Z" data-provider="loginData" finished-at="2020-02-27T00:01:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="1256" started-at="2020-02-27T00:01:09Z" data-provider="loginData" finished-at="2020-02-27T00:01:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[wrongusername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="1600" started-at="2020-02-27T00:01:11Z" data-provider="loginData" finished-at="2020-02-27T00:01:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[wrongpassword]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="1273" started-at="2020-02-27T00:01:12Z" data-provider="loginData" finished-at="2020-02-27T00:01:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bothwrong]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[bothwrong]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="13465" started-at="2020-02-27T00:01:14Z" data-provider="loginData" finished-at="2020-02-27T00:01:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="12835" started-at="2020-02-27T00:01:27Z" data-provider="loginData" finished-at="2020-02-27T00:01:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="doLogin" duration-ms="13016" started-at="2020-02-27T00:01:40Z" data-provider="loginData" finished-at="2020-02-27T00:01:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="Email()[pri:0, instance:com.hub4vision.urls.Login@2794eab6]" name="Email" is-config="true" duration-ms="8358" started-at="2020-02-27T00:01:53Z" finished-at="2020-02-27T00:02:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Email -->
-      </class> <!-- com.hub4vision.urls.Login -->
+        </test-method> <!-- testBStackTakeScreenShot -->
+      </class> <!-- com.hub4vision.urls.BStackTakeScreenshot -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

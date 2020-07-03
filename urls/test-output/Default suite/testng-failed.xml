@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.hub4vision.urls.Login">
+      <class name="com.hub4vision.urls.BStackTakeScreenshot">
         <methods>
-          <include name="doLogin" invocation-numbers="6"/>
-          <include name="HomeSetup"/>
-          <include name="Email"/>
+          <include name="testBStackTakeScreenShot"/>
         </methods>
-      </class> <!-- com.hub4vision.urls.Login -->
+      </class> <!-- com.hub4vision.urls.BStackTakeScreenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
